@@ -1,7 +1,7 @@
 {
-  "name": "com.alelievr.node-graph-processor",
+  "name": "com.mohi.DialogueSystem",
   "displayName": "Dialogue system",
-  "version": "0.3.0",
+  "version": "0.1.0",
   "unity": "2020.3",
   "description": "Dialogue system with node graph editor framework focused on data processing using Unity UIElements and C# 4.7",
   "keywords": [
