@@ -1,3 +1,3 @@
 ﻿using System.Runtime.CompilerServices;
 
-[assembly: InternalsVisibleTo("com.mohi.DialogueSystem.Editor")]
+[assembly: InternalsVisibleTo("com.mohi.dialogue-system.Editor")]
