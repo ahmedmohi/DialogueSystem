@@ -4,10 +4,21 @@
   "version": "0.1.0",
   "unity": "2020.3",
   "description": "Dialogue system with node graph editor framework focused on data processing using Unity UIElements and C# 4.7",
+  "scopedRegistries": [
+    {
+      "name": "General",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.nosuchstudio.rtltmpro"
+      ]
+    }
+  ],
+  "dependencies": {
+    "com.nosuchstudio.rtltmpro": "3.4.3"
+  },
   "keywords": [
     "graph",
     "dialogue",
     "unity"
-  ],
-  "category": "Unity"
+  ]
 }
