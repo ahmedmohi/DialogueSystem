@@ -280,11 +280,11 @@ namespace GraphProcessor
 			foreach (var node in genericNodes.nodePerMenuTitle)
 				yield return (node.Key, node.Value);
 
-			if (graph != null && specificNodeDescriptions.TryGetValue(graph, out var specificNodes))
+            if (graph != null && specificNodeDescriptions.TryGetValue(graph, out var specificNodes))
 			{
 				foreach (var node in specificNodes.nodePerMenuTitle)
-					yield return (node.Key, node.Value);
-			}
+                    yield return (node.Key, node.Value);
+            }
 		}
 
 		public static MonoScript GetNodeViewScript(Type type)
